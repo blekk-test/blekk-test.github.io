@@ -63,7 +63,7 @@ jobs:
         REPORT_NAME="zap-report-${TIMESTAMP}.html"
         echo "Report will be saved as: $REPORT_NAME"
 
-        TARGET_URL=$REPO_NAME
+        TARGET_URL="https://$REPO_NAME"
         echo "Scanning target: $TARGET_URL"
 
         # ensure the output directory exists
